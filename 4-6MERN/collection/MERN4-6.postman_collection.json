@@ -1,0 +1,1070 @@
+{
+	"info": {
+		"_postman_id": "603251ed-23d6-48e4-8f16-c7bb7fecbd8f",
+		"name": "MERN4-6",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33312725"
+	},
+	"item": [
+		{
+			"name": "category",
+			"item": [
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "product1",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"value": "1.jpg",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "2000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "all",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "single",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "_id",
+									"value": "68a6f1e05132f8fe91e1067f",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/single",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"single"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getpagination",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "pageno",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "limit",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/pagination",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"pagination"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "course",
+			"item": [
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "product1",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"value": "1.jpg",
+									"type": "text"
+								},
+								{
+									"key": "price",
+									"value": "2000",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "all",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "single",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "_id",
+									"value": "68a6f1e05132f8fe91e1067f",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/single",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"single"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "getpagination",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "pageno",
+									"value": "5",
+									"type": "text"
+								},
+								{
+									"key": "limit",
+									"value": "2",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/pagination",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"pagination"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "product",
+			"item": [
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "product1",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "image",
+									"value": "1.jpg",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "200",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "_id",
+									"value": "68a6f1e05132f8fe91e1067f",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"value": "1.jpg",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "2001",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "pro 1",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update Copy",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "_id",
+									"value": "68a6f1e05132f8fe91e1067f",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"value": "1.jpg",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "2001",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "pro 1",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "delete",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "_id",
+									"value": "68a6f1e05132f8fe91e1067f",
+									"type": "text"
+								},
+								{
+									"key": "image",
+									"value": "1.jpg",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "price",
+									"value": "2001",
+									"type": "text"
+								},
+								{
+									"key": "name",
+									"value": "pro 1",
+									"type": "text",
+									"disabled": true
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/product/update",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"product",
+								"update"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "student",
+			"item": [
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "ansh",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "ansh@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "rollno",
+									"value": "121",
+									"type": "text"
+								},
+								{
+									"key": "course",
+									"value": "MCA",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/student/add",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"student",
+								"add"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "all",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/student/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"student",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "all Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/student/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"student",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "teacher",
+			"item": [
+				{
+					"name": "add",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "name",
+									"value": "gursimran",
+									"type": "text"
+								},
+								{
+									"key": "email",
+									"value": "gursimran@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "experience",
+									"value": "no",
+									"type": "text"
+								},
+								{
+									"key": "DOJ",
+									"value": "12-",
+									"type": "text"
+								},
+								{
+									"key": "salary",
+									"value": "1345634",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/teacher/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"teacher",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "all",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/student/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"student",
+								"all"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "all Copy",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/student/all",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"student",
+								"all"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "login",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "email",
+									"value": "admin@gmail.com",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/user/login",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"user",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "changepassword",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"type": "text"
+							},
+							{
+								"key": "authorization",
+								"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGU0ZjU4MmZlOTdkMTg0OWE0MjE2NDEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJUeXBlIjoxLCJpYXQiOjE3NjE1NjMxMzZ9.PZHgRlWN4HjbKERLVu80ICIilssiH50S7rvzSQZTlU0",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "_id",
+									"value": "68c7f4ba22e2ec4a911893a6",
+									"type": "text",
+									"disabled": true
+								},
+								{
+									"key": "oldpassword",
+									"value": "1234",
+									"type": "text"
+								},
+								{
+									"key": "newpassword",
+									"value": "123",
+									"type": "text"
+								},
+								{
+									"key": "confirmpassword",
+									"value": "123",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/user/changePassword",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"user",
+								"changePassword"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "admin",
+			"item": [
+				{
+					"name": "product",
+					"item": [
+						{
+							"name": "add",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "authorization",
+										"value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2OGU0ZjU4MmZlOTdkMTg0OWE0MjE2NDEiLCJuYW1lIjoiYWRtaW4iLCJlbWFpbCI6ImFkbWluQGdtYWlsLmNvbSIsInVzZXJUeXBlIjoxLCJpYXQiOjE3NjE1NjQzOTB9.3BJzruPh0wDYjMPqEXzmlH1NzyxAYPCAdmWtSETjzbc",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "name",
+											"value": "product1",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "image",
+											"value": "1.jpg",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "price",
+											"value": "200",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/admin/product/add",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"admin",
+										"product",
+										"add"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "_id",
+											"value": "68a6f1e05132f8fe91e1067f",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"value": "1.jpg",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "price",
+											"value": "2001",
+											"type": "text"
+										},
+										{
+											"key": "name",
+											"value": "pro 1",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/apis/product/update",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"apis",
+										"product",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "update Copy",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "_id",
+											"value": "68a6f1e05132f8fe91e1067f",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"value": "1.jpg",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "price",
+											"value": "2001",
+											"type": "text"
+										},
+										{
+											"key": "name",
+											"value": "pro 1",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/apis/product/update",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"apis",
+										"product",
+										"update"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "delete",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "urlencoded",
+									"urlencoded": [
+										{
+											"key": "_id",
+											"value": "68a6f1e05132f8fe91e1067f",
+											"type": "text"
+										},
+										{
+											"key": "image",
+											"value": "1.jpg",
+											"type": "text",
+											"disabled": true
+										},
+										{
+											"key": "price",
+											"value": "2001",
+											"type": "text"
+										},
+										{
+											"key": "name",
+											"value": "pro 1",
+											"type": "text",
+											"disabled": true
+										}
+									]
+								},
+								"url": {
+									"raw": "http://localhost:5000/apis/product/update",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "5000",
+									"path": [
+										"apis",
+										"product",
+										"update"
+									]
+								}
+							},
+							"response": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "dashboard",
+			"item": [
+				{
+					"name": "dashboard",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:5000/apis/dashboard",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "5000",
+							"path": [
+								"apis",
+								"dashboard"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
